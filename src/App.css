@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(34, 34, 34);
+    flex-wrap: wrap;
 }
 
 .board-container {
@@ -53,4 +54,13 @@
 .piece {
     max-width: 80%;
     max-height: 80%;
+}
+
+.game-text {
+    background-color: white;
+    padding: .5rem;
+}
+
+.game-text button {
+    background-color: lightgray;
 }
